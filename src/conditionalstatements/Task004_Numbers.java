@@ -3,7 +3,7 @@ package conditionalstatements;
 import java.math.BigDecimal;
 import java.util.Scanner;
 
-public class Task003_Numbers {
+public class Task004_Numbers {
 
     public static void main(String[] args) {
     
@@ -11,7 +11,7 @@ public class Task003_Numbers {
         System.out.print("Input a number: ");
         BigDecimal number = input.nextBigDecimal();
         
-        System.out.println("Number is " + posNeg(number) + smallBig(number) );
+        System.out.println("Number is " + posNeg(number) + smallBig(number));
     }
     
     public static String posNeg(BigDecimal a) {
