@@ -1,16 +1,21 @@
 package conditionalstatements;
 
-/**
- *
- * @author Armand Stańczak
- */
+import java.util.Scanner;
+
 public class Task001_PositiveNegative {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input a number: ");
+        int number = input.nextInt();
+        
+        if (number > 0) {
+            System.out.println("Number " + number + " is positive");
+        } else if (number < 0) {
+            System.out.println("Number " + number + " is negative");
+        } else {
+            System.out.println("The number is zero");
+        }
     }
-    
 }
