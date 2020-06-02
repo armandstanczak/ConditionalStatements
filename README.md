@@ -1,6 +1,6 @@
 # Set of excersices from w3resource
 
-This repository covers all 32 excersices from w3resource - "Conditional Statement"
+This repository covers excersices from w3resource - "Conditional Statement"
 They were all completed using NetBeans
 
 ## Installation
